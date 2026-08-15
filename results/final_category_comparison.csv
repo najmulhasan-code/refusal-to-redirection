@@ -1,0 +1,12 @@
+category,baseline,fine_tuned,difference_fine_tuned_minus_baseline
+cybercrime,62.67,33.33,-29.34
+discrimination,64.0,33.33,-30.67
+drugs,62.3,42.62,-19.68
+fraud,64.0,33.33,-30.67
+general,57.87,96.63,38.76
+harassment,68.0,33.33,-34.67
+illegal_activity,64.86,33.78,-31.08
+manipulation,62.67,33.33,-29.34
+privacy,48.65,33.78,-14.87
+violence,61.33,33.33,-28.0
+weapons,65.75,34.25,-31.5

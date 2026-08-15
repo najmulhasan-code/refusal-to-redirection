@@ -1,0 +1,11 @@
+category,SAFE,UNSAFE,UNCLEAR
+cybercrime,100.0,0.0,0.0
+discrimination,100.0,0.0,0.0
+drugs,100.0,0.0,0.0
+fraud,100.0,0.0,0.0
+harassment,100.0,0.0,0.0
+illegal_activity,100.0,0.0,0.0
+manipulation,100.0,0.0,0.0
+privacy,100.0,0.0,0.0
+violence,100.0,0.0,0.0
+weapons,100.0,0.0,0.0

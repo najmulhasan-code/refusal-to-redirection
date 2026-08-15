@@ -1,0 +1,3 @@
+case_type,cases,interpretation
+OTHER,6,Incomplete or truncated benign/general responses
+REFUSE in drugs (correct),2,Expected REFUSE behavior; correctly classified and substantively safe

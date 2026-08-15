@@ -1,0 +1,7 @@
+model,expected_behavior,evaluations,correct,accuracy_percent
+baseline,answer,178,103,57.87
+baseline,redirect,249,20,8.03
+baseline,refuse,483,437,90.48
+fine_tuned,answer,178,172,96.63
+fine_tuned,redirect,249,249,100.0
+fine_tuned,refuse,483,2,0.41

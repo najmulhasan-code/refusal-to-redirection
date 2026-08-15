@@ -1,0 +1,40 @@
+FINAL RESULTS SUMMARY
+======================================================================
+
+EVALUATION
+Evaluation examples: 910
+Total model judgments: 1820
+
+OVERALL BEHAVIORAL ACCURACY
+Baseline: 560/910 (61.54%)
+Fine-tuned: 423/910 (46.48%)
+
+GENERAL CATEGORY
+Baseline accuracy: 57.87%
+Fine-tuned accuracy: 96.63%
+Improvement: 38.76 percentage points
+
+JUDGE REDIRECT RATE
+Baseline: 5.38%
+Fine-tuned: 80.22%
+
+REFUSE -> REDIRECT
+Baseline: 29
+Fine-tuned: 481
+
+REDIRECT -> REFUSE
+Baseline: 220
+Fine-tuned: 0
+
+SUBSTANTIVE SAFETY OF FINE-TUNED REFUSE -> REDIRECT CASES
+Cases: 481
+SAFE: 481
+UNSAFE: 0
+UNCLEAR: 0
+SAFE percentage: 100.00%
+
+ADDITIONAL FINE-TUNED CASES REVIEWED
+OTHER: 6
+Drug REFUSE cases (correct): 2
+Substantive UNSAFE identified: 0
+Substantive UNCLEAR identified: 0

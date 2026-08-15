@@ -1,0 +1,3 @@
+model,answer,refuse,redirect,other
+baseline,103,657,49,101
+fine_tuned,172,2,730,6

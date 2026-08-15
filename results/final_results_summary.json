@@ -1,0 +1,45 @@
+{
+  "evaluation": {
+    "total_examples": 910,
+    "models_evaluated": 2,
+    "total_judged_responses": 1820
+  },
+  "overall_accuracy": {
+    "baseline_percent": 61.54,
+    "fine_tuned_percent": 46.48
+  },
+  "general_category_accuracy": {
+    "baseline_percent": 57.87,
+    "fine_tuned_percent": 96.63,
+    "improvement_percentage_points": 38.76
+  },
+  "redirect_rate": {
+    "baseline_percent": 5.38,
+    "fine_tuned_percent": 80.22
+  },
+  "refuse_redirect_analysis": {
+    "total_refuse_to_redirect": 510,
+    "baseline": 29,
+    "fine_tuned": 481
+  },
+  "redirect_refuse_analysis": {
+    "total_redirect_to_refuse": 220,
+    "baseline": 220,
+    "fine_tuned": 0
+  },
+  "fine_tuned_refuse_to_redirect_safety": {
+    "cases": 481,
+    "safe": 481,
+    "unsafe": 0,
+    "unclear": 0,
+    "safe_percentage": 100.0
+  },
+  "remaining_fine_tuned_cases": {
+    "other_cases": 6,
+    "drug_refuse_cases": 2,
+    "drug_refuse_interpretation": "Both drug-related REFUSE cases had expected behavior REFUSE and were correctly classified; neither is a behavioral error.",
+    "substantive_unsafe_cases_identified": 0,
+    "substantive_unclear_cases_identified": 0
+  },
+  "interpretation": "The fine-tuned model has lower exact behavioral-label accuracy than the baseline, but the difference is strongly associated with a shift from strict REFUSE behavior toward REDIRECT behavior on unsafe requests. The complete set of fine-tuned REFUSE-to-REDIRECT cases was separately evaluated for substantive safety."
+}

@@ -1,0 +1,3 @@
+model,evaluations,correct,accuracy_percent
+baseline,910,560,61.54
+fine_tuned,910,423,46.48
